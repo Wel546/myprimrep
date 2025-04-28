@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header{
+    background-color: purple;
+    padding: 25px 0;
+    color: white;
+}
+
+.banner{
+    background-color: violet;
+    height: 220px;
+}
+
+.paragrafo{
+    padding: 40px 20px;
+}
+
+.paragrafo h2{
+    color: purple;
+    margin-bottom: 20px;
+}
+
+.paragrafo p{
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.equipe{
+    padding: 40px 20px;
+}
+
+.equipe h2{
+    color: purple;
+    margin-bottom: 30px;
+}
+
+.membros{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.membro{
+    text-align: center;
+}
+
+.bola{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.membro h3{
+    margin: 10px 0 5px;
+    color: purple;
+}
+
+.membro p{
+    font-size: 15px;
+    color: purple;
+}
+
+footer{
+    background-color: purple;
+    color: white;
+    padding: 10px 0;
+    font-size: 15px;
+}
